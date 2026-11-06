@@ -95,21 +95,10 @@ O script reporta acurácia (com e sem os casos ambíguos), precisão/recall/F1 p
 - `v2`: `v1` + definição de cada categoria, critério de prioridade e 3 exemplos (few-shot) que não estão no conjunto de avaliação.
 - Baseline: TF-IDF + regressão logística. É a régua: o LLM só se justifica se superá-la o bastante para compensar custo e latência.
 
-### Resultados
-
-Preencha após rodar com a chave de API (o provider `mock` só valida o script, não mede nenhum modelo):
-
-| Abordagem | Acurácia (categoria) | F1 pior classe | Latência p95 | Custo / 1000 tickets |
-|---|---|---|---|---|
-| TF-IDF + regressão logística | | | | |
-| LLM, prompt v1 | | | | |
-| LLM, prompt v2 | | | | |
-
-Limitações honestas: 50 tickets é uma validação pequena, não um benchmark; os dados são sintéticos; e os rótulos refletem o critério de uma pessoa só. Os números servem para comparar abordagens entre si, não para prometer desempenho em produção.
 
 ## Decisões de projeto
 
-- **Saída estruturada validada, não confiada.** O LLM pode devolver JSON inválido ou fora do schema. O Pydantic valida e, se falhar, o erro é devolvido ao modelo em um retry. Se falhar de novo, a API responde 502 em vez de passar lixo adiante.
+- **Saída estruturada validada, não confiada.** O LLM pode devolver JSON inválido ou fora do schema. O Pydantic valida e, se falhar, o erro é devolvido ao modelo em um retry. Se falhar de novo, a API responde 502 em vez de passar incertezas (trash) adiante.
 - **Humano no loop.** Tickets com baixa confiança ou prioridade alta são marcados com `needs_human_review`. A IA sugere, a pessoa confirma o que é sensível.
 - **Texto do cliente tratado como dado.** O prompt delimita o ticket com tags e instrui o modelo a ignorar instruções dentro dele (mitigação básica de prompt injection).
 - **Provider plugável + mock.** Dá para rodar CI e demo sem chave de API e sem custo; trocar de provider é implementar um método.
