@@ -1,0 +1,50 @@
+{"id": 1, "text": "Fui cobrado duas vezes na mesma compra e o valor já saiu da minha conta. Preciso do estorno.", "category": "billing", "priority": "high", "language": "pt", "ambiguous": false}
+{"id": 2, "text": "Meu cupom de desconto não foi aplicado na fatura deste mês, vocês podem ajustar?", "category": "billing", "priority": "medium", "language": "pt", "ambiguous": false}
+{"id": 3, "text": "Qual é a data de vencimento da minha próxima fatura?", "category": "billing", "priority": "low", "language": "pt", "ambiguous": false}
+{"id": 4, "text": "I was charged $89 for a subscription I cancelled last month. Please refund me immediately.", "category": "billing", "priority": "high", "language": "en", "ambiguous": false}
+{"id": 5, "text": "The invoice shows a tax line I don't recognize. Can you explain it?", "category": "billing", "priority": "medium", "language": "en", "ambiguous": false}
+{"id": 6, "text": "Troquei de cartão e a cobrança continua indo para o cartão antigo.", "category": "billing", "priority": "medium", "language": "pt", "ambiguous": false}
+{"id": 7, "text": "Do you offer annual billing with a discount?", "category": "billing", "priority": "low", "language": "en", "ambiguous": false}
+{"id": 8, "text": "Apareceu uma compra de R$ 450 na minha fatura que eu não fiz. Acho que é fraude.", "category": "billing", "priority": "high", "language": "pt", "ambiguous": true}
+{"id": 9, "text": "Gostaria de receber a nota fiscal da minha última compra por e-mail.", "category": "billing", "priority": "low", "language": "pt", "ambiguous": false}
+{"id": 10, "text": "My refund was approved two weeks ago but the money still hasn't arrived.", "category": "billing", "priority": "medium", "language": "en", "ambiguous": false}
+{"id": 11, "text": "O aplicativo fecha sozinho assim que abro a tela de pagamento.", "category": "technical", "priority": "medium", "language": "pt", "ambiguous": false}
+{"id": 12, "text": "The checkout page returns a 500 error every time, nobody on my team can complete a purchase.", "category": "technical", "priority": "high", "language": "en", "ambiguous": false}
+{"id": 13, "text": "O botão de ajuda está com o texto cortado no meu celular.", "category": "technical", "priority": "low", "language": "pt", "ambiguous": false}
+{"id": 14, "text": "Push notifications stopped working after the last update.", "category": "technical", "priority": "medium", "language": "en", "ambiguous": false}
+{"id": 15, "text": "Todo o painel da minha loja está fora do ar desde cedo, não consigo receber pedidos.", "category": "technical", "priority": "high", "language": "pt", "ambiguous": false}
+{"id": 16, "text": "The dark mode colors look a bit off on the settings screen.", "category": "technical", "priority": "low", "language": "en", "ambiguous": false}
+{"id": 17, "text": "O mapa não carrega e fica só uma tela branca depois que atualizei o app.", "category": "technical", "priority": "medium", "language": "pt", "ambiguous": false}
+{"id": 18, "text": "Search keeps timing out when I type more than three words.", "category": "technical", "priority": "medium", "language": "en", "ambiguous": false}
+{"id": 19, "text": "A tela de histórico demora um pouco para abrir.", "category": "technical", "priority": "low", "language": "pt", "ambiguous": false}
+{"id": 20, "text": "Our API integration is returning duplicated orders and our kitchen is getting double tickets right now.", "category": "technical", "priority": "high", "language": "en", "ambiguous": true}
+{"id": 21, "text": "Não consigo entrar na minha conta, a senha nova não é aceita.", "category": "account", "priority": "medium", "language": "pt", "ambiguous": false}
+{"id": 22, "text": "My account was locked and I can't access my earnings. I have payments due today.", "category": "account", "priority": "high", "language": "en", "ambiguous": false}
+{"id": 23, "text": "Como altero o e-mail cadastrado na minha conta?", "category": "account", "priority": "low", "language": "pt", "ambiguous": false}
+{"id": 24, "text": "I never received the verification code to confirm my phone number.", "category": "account", "priority": "medium", "language": "en", "ambiguous": false}
+{"id": 25, "text": "Alguém entrou na minha conta e alterou meu endereço. Preciso bloquear o acesso agora.", "category": "account", "priority": "high", "language": "pt", "ambiguous": true}
+{"id": 26, "text": "How do I delete my account and data?", "category": "account", "priority": "low", "language": "en", "ambiguous": false}
+{"id": 27, "text": "Quero unificar duas contas que criei por engano com e-mails diferentes.", "category": "account", "priority": "medium", "language": "pt", "ambiguous": false}
+{"id": 28, "text": "Two-factor login keeps sending the code to my old phone number.", "category": "account", "priority": "medium", "language": "en", "ambiguous": false}
+{"id": 29, "text": "Posso mudar o nome que aparece no meu perfil?", "category": "account", "priority": "low", "language": "pt", "ambiguous": false}
+{"id": 30, "text": "Where can I update my profile photo?", "category": "account", "priority": "low", "language": "en", "ambiguous": false}
+{"id": 31, "text": "Meu pedido está atrasado há duas horas e era para um evento, preciso saber onde está agora.", "category": "delivery", "priority": "high", "language": "pt", "ambiguous": false}
+{"id": 32, "text": "The delivery driver left my order at the wrong address.", "category": "delivery", "priority": "medium", "language": "en", "ambiguous": false}
+{"id": 33, "text": "Chegou faltando um item do meu pedido.", "category": "delivery", "priority": "medium", "language": "pt", "ambiguous": false}
+{"id": 34, "text": "Can I choose a delivery time window for tomorrow?", "category": "delivery", "priority": "low", "language": "en", "ambiguous": false}
+{"id": 35, "text": "O entregador não aparece no mapa e o pedido de remédio não chegou, é urgente.", "category": "delivery", "priority": "high", "language": "pt", "ambiguous": false}
+{"id": 36, "text": "My food arrived cold and the packaging was damaged.", "category": "delivery", "priority": "medium", "language": "en", "ambiguous": false}
+{"id": 37, "text": "Vocês entregam em condomínios com portaria fechada?", "category": "delivery", "priority": "low", "language": "pt", "ambiguous": false}
+{"id": 38, "text": "O pedido consta como entregue, mas eu não recebi nada.", "category": "delivery", "priority": "medium", "language": "pt", "ambiguous": true}
+{"id": 39, "text": "My order is marked delivered but I'm waiting outside and nobody came, it was a gift for tonight.", "category": "delivery", "priority": "high", "language": "en", "ambiguous": false}
+{"id": 40, "text": "Is there a delivery fee for orders above $50?", "category": "delivery", "priority": "low", "language": "en", "ambiguous": false}
+{"id": 41, "text": "Vocês têm vaga para trabalhar com tecnologia?", "category": "other", "priority": "low", "language": "pt", "ambiguous": false}
+{"id": 42, "text": "Just wanted to say thanks, the support agent was great.", "category": "other", "priority": "low", "language": "en", "ambiguous": false}
+{"id": 43, "text": "Gostaria de sugerir uma opção de pagamento por PIX parcelado.", "category": "other", "priority": "low", "language": "pt", "ambiguous": false}
+{"id": 44, "text": "I'd like to partner my restaurant with your platform. Who should I contact?", "category": "other", "priority": "low", "language": "en", "ambiguous": false}
+{"id": 45, "text": "Quero registrar uma reclamação formal sobre o atendimento que recebi ontem.", "category": "other", "priority": "medium", "language": "pt", "ambiguous": true}
+{"id": 46, "text": "Can you tell me what your company's sustainability policy is?", "category": "other", "priority": "low", "language": "en", "ambiguous": false}
+{"id": 47, "text": "Vocês podem enviar material de divulgação para meu comércio?", "category": "other", "priority": "low", "language": "pt", "ambiguous": false}
+{"id": 48, "text": "I'm a journalist working on a story, who handles press inquiries?", "category": "other", "priority": "medium", "language": "en", "ambiguous": false}
+{"id": 49, "text": "Qual o horário de funcionamento da central de atendimento?", "category": "other", "priority": "low", "language": "pt", "ambiguous": false}
+{"id": 50, "text": "Do you have a loyalty program?", "category": "other", "priority": "low", "language": "en", "ambiguous": false}
